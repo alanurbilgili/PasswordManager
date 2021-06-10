@@ -1,0 +1,17 @@
+{
+    "users":[{
+        "app":"twitter",
+        "username": "alanur",
+        "password": "alanur123"
+      }, {
+          "app":"facebook",
+          "username":"damla",
+          "password":"damla123"
+    
+      }, {
+        "app":"facebook",
+        "username":"murat",
+        "password":"murat123"
+
+        }]
+}
