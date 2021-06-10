@@ -1,6 +1,6 @@
 import React from 'react';
-import '../App.css';
-import MainPage from './MainPage';
+import '../../App.css';
+import MainPage from '../MainPage';
 
 
 function Home() {
