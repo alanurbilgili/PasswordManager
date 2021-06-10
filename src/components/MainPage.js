@@ -6,7 +6,7 @@ import './Main.css';
 function MainPage() {
   return (
     <div className='home-container'>
-      <video src='/images/world.mp4' autoPlay loop muted />
+      <video src='/home-video/world.mp4' autoPlay loop muted />
       <h1>KEEP YOUR DATA SAFE</h1>
       <p>Do you need help to remember your passwords?</p>
       <div className='home-btns'>
