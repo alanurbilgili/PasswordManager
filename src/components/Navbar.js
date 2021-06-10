@@ -24,7 +24,7 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container'>
             <Link to='/' className='navbar-logo'>
-              PASSWORD MANAGER <i class="fas fa-key"></i>
+              PASSWORD MANAGER 
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -41,7 +41,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='/about-us' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/About-Page' className='nav-links' onClick={closeMobileMenu}>
                   About Us
                 </Link>
               </li>
