@@ -8,7 +8,7 @@ function MainPage() {
     <div className='home-container'>
       <video src='/home-video/world.mp4' autoPlay loop muted />
       <h1>KEEP YOUR DATA SAFE</h1>
-      <p>Do you need help to remember your passwords?</p>
+      <p>Can't remember your passwords?</p>
       <div className='home-btns'>
         <Button
           className='btns'
