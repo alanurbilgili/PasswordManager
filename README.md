@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Tabletop Character Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
+In this project we made a password manager that allows the user to store their passwords and generate new ones.
+## Navigation Bar
+The navigation bar has 3 buttons to navigate the website. These are Home, Generate Password and Sign Up.
+## Home Page
+The user will be greeted with this page when they open the website. Clicking on the "Manage Passwords" button redirects to the login page.
+## Password Generation Page
+The user can simply click "Generate Password" and an alert with their new password will show up. According to https://howsecureismypassword.net/ it takes about 1 trillion years to crack our generated passwords.
+## Login & Sign Up Pages
+The user will be able to access the system once they log into the system if they have already created an account. If not, they can simply create a new account by registering and filling necessary fields.
+## Passwords Page
+In this page the user will input a site name and a password. Since their username is collected during logging in, their input and their username will be stored for later use.
+## Get Password Page
+In this page the user will just input an app name. If an app with the user's username exists in the records, the system will show an alert with the corresponding password.
+### For more information on usage cases please refer to the document down below.
+## Project Members and Their Responsibilities
+Although we cooperated on all parts of code (we wrote our code while sharing our screens), each member spent majority of their time on the following tasks:
+### Alanur Bilgili: Worked on data storage, components with forms
+### Damla Tütüncü: Worked on components, page design and layout
+### Murat Can Altun: Worked on documentation, password generation and components
+## Technologies Used
+We used Node.js, React.
+## Instructions
+Assuming the user has installed Node.js, all that has to be done is opening cmd on the src folder and running the following commands:
+### `npm install`
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
