@@ -18,8 +18,8 @@ export default class GetPasswords extends React.Component {
     }
     onClick() {
         const { app, username, password } = this.state;
-        const user = { app, username, password };
-        // you guys have to add the storage methods here
+        const user = { username, password };
+        alert(localStorage.getItem(app));
     }
 
     render() {
