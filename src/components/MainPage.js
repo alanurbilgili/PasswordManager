@@ -9,6 +9,7 @@ function MainPage() {
       <video src='/home-video/world.mp4' autoPlay loop muted />
       <h1>KEEP YOUR DATA SAFE</h1>
       <p>Can't remember your passwords?</p>
+        <p> We can help you with that.</p>
       <div className='home-btns'>
         <Button
           className='btns'
@@ -16,14 +17,6 @@ function MainPage() {
           buttonSize='btn--large'
         >
           MANAGE PASSWORDS <i class="fas fa-lock"></i>
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          ABOUT US <i class="fas fa-laugh"></i>
         </Button>
       </div>
     </div>

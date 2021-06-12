@@ -1,5 +1,4 @@
-import './Main.css';
-const $ = require('jQuery');
+import Axios from "axios";
 
 export const login = (username, password) => {
     if (localStorage.getItem(username) == password) {
@@ -26,7 +25,7 @@ export const generate = () => {
     return result;
 }
 
-export const setAppPassword = (App, Username, Password) => {
+/*export const setAppPassword = (App, Username, Password) => {
     $.ajax({
         type: "POST",
         url: "/Passwords-Page",
@@ -43,7 +42,7 @@ export const setAppPassword = (App, Username, Password) => {
 export const getAppPassword = (app, password) => {
     $.ajax({
         type: "GET",
-        url: "/users",
+        url: "data.json",
         datatype: "json",
         success: function (data) {
 
@@ -51,4 +50,4 @@ export const getAppPassword = (app, password) => {
             alert("Couldn't find the json file.")
         }
     })
-}
+} */
