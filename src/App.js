@@ -4,7 +4,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About-Page';
 import Passwords from './components/pages/Passwords-Page';
 import SignUp from "./components/SignUp";
-import Login from "./components/Login";
+import Generate from "./components/Generate";
 import Form from "./components/Form";
 import GetPaswords from "./components/GetPasswords"
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -21,6 +21,7 @@ function App() {
           <Route path='/sign-Up' component={SignUp} />
           <Route path='/login' component={Form} />
           <Route path='/get-passwords' component={GetPaswords} />
+          <Route path='/generate' component={Generate} />
         </Switch>
       </Router>
     </>

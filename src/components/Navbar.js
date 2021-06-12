@@ -35,6 +35,11 @@ function Navbar() {
                   Home
                 </Link>
               </li>
+                <li className='nav-item'>
+                    <Link to='/generate' className='nav-links' onClick={closeMobileMenu}>
+                        Generate Password
+                    </Link>
+                </li>
               <li className='nav-item'>
                 <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                   Sign Up
