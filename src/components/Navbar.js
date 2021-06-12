@@ -36,11 +36,6 @@ function Navbar() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='/Passwords-Page' className='nav-links' onClick={closeMobileMenu}>
-                  Passwords
-                </Link>
-              </li>
-              <li className='nav-item'>
                 <Link to='/About-Page' className='nav-links' onClick={closeMobileMenu}>
                   About Us
                 </Link>

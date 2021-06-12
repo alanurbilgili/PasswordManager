@@ -34,27 +34,6 @@ function PasswordsPage() {  //Write onclick events here
   );
 }
 
-/*const element = document.getElementById("passwordForm");
 
-if (element) {
-    element.addEventListener("submit", performPostRequest)
-}
-
-function performPostRequest(e) {
-    axios.post("http://localhost:3000/users", {
-        app: document.getElementById("appField").value,
-        username: document.getElementById("usernameField").value,
-        password: document.getElementById("passwordField").value
-    })
-        .then(function (response) {
-            console.log("Success")
-        })
-        .catch(function (error) {
-            console.log("Error")
-        });
-    e.stopPropagation();
-
-    e.preventDefault();
-}*/
 
 export default PasswordsPage;

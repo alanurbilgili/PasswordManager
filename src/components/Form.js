@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import './Main.css';
+import {withRouter} from 'react-router-dom';
 
 export default class Form extends React.Component {
     constructor(props) {
@@ -19,7 +20,8 @@ export default class Form extends React.Component {
         if (localStorage.getItem(username) ==
             password) {
             sessionStorage.setItem("user", username);
-            window.location.href = "/Passwords-Page";
+            //window.location.href = "/Passwords-Page";
+            this.props.history.push('/Passwords-Page');
             alert("Login successful");
         } else {
             alert("Login failed");
