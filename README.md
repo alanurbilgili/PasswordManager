@@ -25,3 +25,4 @@ We used Node.js, React.
 Assuming the user has installed Node.js, all that has to be done is opening cmd on the src folder and running the following commands:
 ### `npm install`
 ### `npm start`
+[UseCase.docx](https://github.com/damlattnc/Password-Manager-ReactJS/files/6642135/UseCase.docx)
