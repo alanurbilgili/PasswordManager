@@ -1,4 +1,4 @@
-# Tabletop Character Manager
+# Password Manager
 
 In this project we made a password manager that allows the user to store their passwords and generate new ones.
 ## Navigation Bar
