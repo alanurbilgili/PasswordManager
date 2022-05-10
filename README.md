@@ -1,3 +1,3 @@
 # Password-Manager-ReactJS
-"master" branchına bakınız
-node_module dosyasını da ekleyerek node.js üzerinden "npm start" komutu ile çalıştırabilirsiniz.
+See the "master" branch.
+You can also add the node_module file and run it with the "npm start" command over node.js.
